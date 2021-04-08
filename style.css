@@ -1,0 +1,195 @@
+ /* *
+ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}  */
+
+body
+{
+    background-color: #272727;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.rectangle
+{
+    width: 960px;
+    margin: 20px;
+    text-align: center;
+}
+
+.square
+{
+    width: 50%;
+    float: left;
+}
+
+#logo
+{
+    float: left;
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    width: 70%;
+    text-align: left;
+}
+
+#zegar
+{
+    float: left;
+    font-size: 50px;
+    text-align: left;
+}
+
+.tile1
+{
+  float: left;
+  width: 230px;
+  height: 142px;
+  background-color:#3095d3;
+  margin: 10px;
+  text-align: center;
+}
+
+.tile1:hover
+{
+  background-color: #2084c2;
+}
+
+.tile2
+{
+  float: left;
+  width: 230px;
+  height: 142px;
+  background-color: #666666;
+  margin: 10px;
+  text-align: center;
+}
+
+.tile2:hover
+{
+  background-color: #555555;
+}
+
+.tile3
+{
+  float: left;
+  width: 230px;
+  height: 142px;
+  background-color:#93c748;
+  margin: 10px;
+  text-align: center;
+}
+
+.tile3:hover
+{
+  background-color: #82b637;
+}
+
+.tile4
+{
+  width: 420px;
+  height: 82px;
+  background-color:#ee5a32;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  padding: 30px;
+  line-height: 150%;
+}
+
+.tile5
+{
+  width: 420px;
+  height: 244px;
+  background-color:#666666;
+  margin: 10px;
+  font-size: 22px;
+  text-align: center;
+  text-align: justify;
+  padding: 30px;
+}
+
+.yt
+{
+  width: 105px;
+  height: 142px;
+  background-color: #d94348;
+  margin: 10px;
+  float: left;
+}
+
+.yt:hover
+{
+  background-color: #c83237;
+}
+
+.fb
+{
+  width: 105px;
+  height: 142px;
+  background-color:#4668b3;
+  margin: 10px;
+  float: left;
+}
+
+.fb:hover
+{
+  background-color: #3557a2;
+}
+
+.git
+{
+  width: 105px;
+  height: 142px;
+  background-color: #444444;
+  margin: 10px;
+  float: left;
+}
+
+.git:hover
+{
+  background-color: #333333;
+}
+
+.in
+{
+  width: 105px;
+  height: 142px;
+  background-color:#1c42eb;
+  margin: 10px;
+  float: left;
+}
+
+.in:hover
+{
+  background-color: #0b31da;
+}
+
+a.tilelink
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a.sociallink
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+img.zdjecie
+{
+  float: left;
+  width: 40%;
+  padding: 0 10px;
+}
